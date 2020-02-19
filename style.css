@@ -6,6 +6,7 @@
 body{
   font-size: 1em;
   line-height: 1.5;
+  font-family: "Times New Roman";
 }
 /* --------------- */
 main{
@@ -268,5 +269,39 @@ p.whatwedodescript{
 .videosessionimg{
   float: left;
   margin-left: 5%;
+}
+/* quarta parte */
+#focussection{
+  height: 500px;
+  width: 100%;
+}
+.focusimg{
+  float:left;
+  padding-top: 20px;
+  margin-left: 10%;
+}
+.focustext{
+  width: 40%;
+  float: left;
+  padding-left: 5%;
+  padding-top: 10%;
+}
+.s247{
+  text-align: center;
+}
 
+
+.content247 h4{
+  font-weight: bold;
+}
+.content247 h6{
+  opacity: .6;
+  font-weight: bold;
+}
+.content247 a{
+  color: #98c8f8;
+  text-decoration: underline;
+}
+.content247 span{
+  color: #7FB802;
 }
