@@ -8,6 +8,16 @@ body{
   line-height: 1.5;
 }
 /* --------------- */
+main{
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+}
+main::after{
+  content:"";
+  display: table;
+  clear: both;
+}
 
 /* link properties */
 a:link, a:visited{
@@ -41,6 +51,7 @@ header::after{
   display: table;
   clear: both;
 }
+
 /* ------------- */
 
 /* Menu nav dell'header */
@@ -115,10 +126,97 @@ img.logoimg{
 }
 
 /* contenitore di centratura sezioni */
-*.centratura{
+.centratura{
   width: 70vw;
   margin: 0 auto;
 }
 /* ------------- */
 
------------ */
+/* Prima sezione */
+h5.psec1{
+  color: #373a3c;
+  font-size: 24px;
+  padding-bottom: 5px;
+
+}
+p.psec1{
+  color: #999;
+  font-size: 20px;
+}
+.sec1container{
+  margin-top: 80px; 0;
+  text-align: center;
+}
+.sec1list, .sec1list li{
+  display: inline-block;
+  padding: 0 25px;
+}
+.sec1list{
+  width: 100%;
+  text-align: center;
+  margin-top: 5%;
+}
+.imgsec1{
+  text-align: center;
+}
+.sec1text{
+  width: 400px;
+  text-align: center;
+}
+.sec1title{
+  color: #7fb802;
+  font-size: 26px;
+  padding: 30px 0 10px 0;
+}
+.sec1text p{
+  color: #b2b2b2;
+  font-size: 20px;
+  line-height: 25px;
+}
+hr.shorthr{
+  opacity: .3;
+  width: 32px;
+  border-top: 2px solid;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+hr{
+  opacity: .5;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+/* seconda sezione */
+.hikerimg{
+  float: left;
+  margin: 0 20% 0 10%;
+}
+.hikertext{
+  width: 30%;
+  padding-top: 5%;
+  float: left;
+}
+.whatwedo{
+  color: #4a4a4a;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+}
+p.whatwedodescript{
+  color: #999;
+  font-size: 20px;
+  margin-top: 15px;
+  line-height: 21px;
+}
+#createyourplan{
+  float: left;
+  width: 100%;
+  padding-top: 40px;
+  margin-left: 10%;
+}
+.sxcreate{
+  float: left;
+}
+.selector{
+  float: left;
+}
