@@ -37,7 +37,7 @@ a.menulink:hover{
 
 /* header properties */
 header{
-  height: 500px;
+  min-height: 500px;
   width: 100vw;
   padding: 1% 18%;
   background-image: url("img/sfondohead.jpg");
@@ -131,6 +131,12 @@ img.logoimg{
 }
 /* ------------- */
 
+.clearfix{
+  content:"";
+  display: table;
+  clear: both;
+}
+
 /* Prima sezione */
 h5.psec1{
   color: #373a3c;
@@ -145,6 +151,7 @@ p.psec1{
 .sec1container{
   margin-top: 80px; 0;
   text-align: center;
+  padding: 0 12%;
 }
 .sec1list, .sec1list li{
   display: inline-block;
@@ -156,7 +163,7 @@ p.psec1{
   margin-top: 5%;
 }
 .imgsec1{
-  text-align: center;
+
 }
 .sec1text{
   width: 400px;
