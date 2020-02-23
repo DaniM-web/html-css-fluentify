@@ -18,6 +18,12 @@ main::after{
   clear: both;
 }
 
+.clearfix{
+  content:"";
+  display: table;
+  clear: both;
+}
+
 /* link properties */
 a:link, a:visited{
  text-decoration: none;
@@ -149,32 +155,58 @@ p.psec1{
   font-size: 20px;
 }
 .sec1container{
-  margin-top: 80px; 0;
-  text-align: center;
-  padding: 0 12%;
-}
-.sec1list, .sec1list li{
-  display: inline-block;
-  padding: 0 25px;
-}
-.sec1list{
   width: 100%;
+  padding: 80px 0;
+}
+
+.imgprofile{
+  margin: 5px 0 0;
+}
+.imgpc{
+  margin: 22px 0 0;
+}
+.imgdoc{
+  margin: 12px 0 0;
+}
+
+/* .testoprova2{
+padding-top: 40px;
+
+} */
+
+.testosec1{
   text-align: center;
+}
+
+.contenitoreliste{
+  width: 100%;
   margin-top: 5%;
 }
-.imgsec1{
 
-}
-.sec1text{
-  width: 400px;
+.sec1list{
+  width: 30%;
+  float: left;
   text-align: center;
+  list-style-type: none;
 }
+.sec1list:nth-child(2){
+  margin: 0 5%;
+}
+
+
 .sec1title{
   color: #7fb802;
   font-size: 26px;
-  padding: 30px 0 10px 0;
+  margin: 40px 0 8px;
+  line-height: 1em;
 }
-.sec1text p{
+
+.titlemove{
+  margin-bottom: 63px;
+}
+
+.testoprova{
+  text-align: center;
   color: #b2b2b2;
   font-size: 20px;
   line-height: 25px;
@@ -183,10 +215,11 @@ hr.shorthr{
   opacity: .3;
   width: 32px;
   border-top: 2px solid;
-  text-align: center;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
+
 hr{
   opacity: .5;
   margin-top: 40px;
@@ -311,4 +344,93 @@ p.whatwedodescript{
 }
 .content247 span{
   color: #7FB802;
+}
+.programmes{
+  width: 100%;
+  background-image: url("img/sfondoprogrammes.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 8% 0;
+  margin-top: 5%;
+}
+
+.englishmust{
+  max-width: 30%;
+}
+.englishmust h4{
+  color: #fff;
+  font-size: 28px;
+}
+.englishmust p{
+  color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 20px 0;
+    opacity: .5;
+    padding-right: 4vw;
+}
+
+/* Last section create your plan */
+.yourplan{
+  width: 100%;
+  padding: 60px 0;
+  text-align: center;
+}
+
+ .containplainbox{
+   width: 100%;
+   margin-left: 10%;
+}
+
+.planbox{
+  width: 33%;
+  float: left;
+  text-align: left;
+  padding: 0 5%;
+  margin: 5% 0;
+}
+
+.planbox h6{
+  font-size: 18px;
+  margin-top: 30px;
+  opacity: .7;
+}
+.planbox p{
+  font-size: 17px;
+  font-weight: 100;
+  min-height: 60px;
+  line-height: 18px;
+  margin-top: 15px;
+  color: #999;
+}
+
+a.bluelink{
+  color: #98c8f8!important;
+  text-decoration: underline!important;
+}
+
+a.orangelink{
+color: #f8b71c!important;
+text-decoration: underline!important;
+}
+
+a.greenlink{
+  color: #7fb802!important;
+  text-decoration: underline!important;
+}
+
+.bluehr{
+  border-top: 5px solid;
+  color: #98c8f8;
+  margin: 20px 0 10px;
+}
+.orangehr{
+  border-top: 5px solid;
+  color: #f8b71c;
+  margin: 10px 0;
+}
+.greenhr{
+  border-top: 5px solid;
+  color: #7fb802;
+  margin: 10px 0;
 }
